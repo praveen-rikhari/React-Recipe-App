@@ -1,8 +1,29 @@
-# React + Vite
+# Tasty Bites Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tasty Bites is a multipage responsive recipe app built with Vite, React JS, React Router, and Styled Components. It allows users to search for recipes, view details, and get step-by-step instructions for cooking their favorite dishes.
 
-Currently, two official plugins are available:
+Check out the live app: [Tasty Bites](https://tasty-bites-parveen.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Recipe Search:** Search for recipes by dish name or keyword.
+- **Recipe Details:** View detailed information about a recipe, including ingredients and instructions.
+- **Responsive Design:** The app is fully responsive and works on various devices and screen sizes.
+- **External API:** Utilizes the Spoonacular API to fetch recipe data.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/tasty-bites-recipe-app.git
+   cd tasty-bites-recipe-app
+   npm install
+   VITE_MY_API_KEY=your-api-key
+   npm run dev
+   
+# Contributing
+
+Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
